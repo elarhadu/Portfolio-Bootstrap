@@ -15,27 +15,39 @@
 
   <body>
     <header tabindex="0">
-      <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" tabindex="0">My Logo</a>
-          <ul class="d-flex list-unstyled">
-            <li class="nav-item">
-              <a href="#" class="nav-link" aria-current="page">Portfolio</a>
-            </li>
-            <li><a href="#" class="nav-link">About</a></li>
-            <li><a href="#" class="nav-link">Contact</a></li>
-          </ul>
-        </div>
+      <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3">Contact</a>
+          </li>
+        </ul>
       </nav>
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#navbar-example2"
+        data-bs-offset="0"
+        class="scrollspy-example"
+        tabindex="0"
+      ></div>
     </header>
-    <section >
+    <section id="scrollspyHeading2">
       <div class="container">
-        <h1 class="h1 fw-bolder">I'm Ella Glad to see you!</h1>
+        <h1 class="h1 fw-bolder" style="margin: 20px auto">
+          We are Elarh and Michael <br />
+          Glad to see you!
+        </h1>
         <p class="text-muted lh-2">
-          I’m a software developer! I can help you build a product, feature or
-          website. Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
+          We are software developers! We can help you build a product, feature
+          or website. Look through some of our work and experience! If you like
+          what you see and have a project you need coded, don’t hestiate to
+          contact us.
         </p>
         <span
           class="mt-2 mb-2 color-primary d-block text-uppercase text-primary fs-bold"
@@ -75,7 +87,8 @@
         </div>
       </div>
     </section>
-    <section class="projects container mt-5">
+
+    <section class="projects container mt-5" id="scrollspyHeading1">
       <div class="card mb-3 p-5" style="max-width: 100%">
         <div class="row g-0">
           <div class="col-md-6">
@@ -225,7 +238,10 @@
         </div>
       </div>
     </section>
-    <section class="about-myself-section container py-5 my-5">
+    <section
+      class="about-myself-section container py-5 my-5"
+      id="scrollspyHeading3"
+    >
       <div class="row">
         <div class="col-md-6">
           <h3 class="h3 fw-bold">About Myself</h3>
@@ -322,7 +338,10 @@
       </div>
     </section>
 
-    <section class="contact-form container bg-primary p-4 text-white">
+    <section
+      class="contact-form container bg-primary p-4 text-white"
+      id="scrollspyHeading4"
+    >
       <div class="row">
         <div class="col"></div>
         <div class="col-6">
