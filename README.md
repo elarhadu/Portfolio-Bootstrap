@@ -2,7 +2,7 @@
 
 # Portfolio Setup (Bootstrap Version)
 
-> In this project, I copied Figma template 1 with my coding partner, @michaelamponsah. We used HTML with Bootstrap. It is just a template so it does not contain any of our actual works.
+> In this project, I copied Figma template 1 with my coding partner,[Michael Amponsah](https://github.com/michaelamponsah). We used HTML with Bootstrap. It is just a template so it does not contain any of our actual works.
 
 ## Built With
 
@@ -31,8 +31,8 @@ Follow the following steps to get this project on your local development environ
 
 👤 **Author**
 - GitHub: [@michaelamponsah](https://github.com/michaelamponsah)
-- Twitter: [](https://twitter.com/)
-- LinkedIn: [](www.linkedin.com/in/)
+- Twitter: [@_mikeamponsah](https://twitter.com/_mikeamponsah)
+- LinkedIn: [Michael Amponsah](www.linkedin.com/in/michael_amponsah)
 
 
 ## 🤝 Contributing
